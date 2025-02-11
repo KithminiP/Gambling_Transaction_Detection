@@ -15,7 +15,11 @@ Is Gambling: Binary classification of whether the transaction is gambling-relate
 
 
 **Key Techniques Used:**
+
 *Random Forest Classifier: A robust classifier used for initial model training.
+
 *Hyperparameter Tuning: Tuning the models using RandomizedSearchCV to optimize performance.
+
 *Threshold Adjustment: Adjusting classification thresholds to improve recall for gambling transactions.
+
 *Evaluation Metrics: Accuracy, Precision-Recall AUC, ROC-AUC, and F1-Score to evaluate model performance, particularly for imbalanced datasets.
